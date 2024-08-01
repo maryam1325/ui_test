@@ -1,4 +1,4 @@
-import 'package:c11_exam_sun_online/badge_icon.dart';
+import 'package:c11_exam_sun_online/tabs/home/badge_icon.dart';
 import 'package:c11_exam_sun_online/tabs/clender_tab.dart';
 import 'package:c11_exam_sun_online/tabs/grid_tab.dart';
 import 'package:c11_exam_sun_online/tabs/home_tab.dart';
@@ -20,14 +20,15 @@ class _moodyState extends State<moody> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
+
         backgroundColor: Colors.transparent,
         leading: Padding(
-          padding: const EdgeInsets.only(left: 30),
-          child: Image.asset(
+          padding: const EdgeInsets.only(left: 35),
+        child: Image.asset(
               'assets/images/logo.png'
           ),
         ),
-        leadingWidth: 80,
+        leadingWidth: 75,
         titleSpacing: 0,
         title: Text(
           'Moody',
@@ -49,7 +50,7 @@ class _moodyState extends State<moody> {
       ),
       body: tabs[index],
       bottomNavigationBar: Container(
-        height: 88,
+        height: 66,
 
         child: BottomNavigationBar(
           backgroundColor: Colors.white,
