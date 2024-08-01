@@ -23,7 +23,9 @@ class _moodyState extends State<moody> {
         backgroundColor: Colors.transparent,
         leading: Padding(
           padding: const EdgeInsets.only(left: 30),
-          child: Image.asset('assets/images/logo.png'),
+          child: Image.asset(
+              'assets/images/logo.png'
+          ),
         ),
         leadingWidth: 80,
         titleSpacing: 0,
