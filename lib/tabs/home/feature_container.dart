@@ -1,8 +1,8 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 
-class HealthContainer extends StatelessWidget {
-  const HealthContainer({super.key});
+class featureContainer extends StatelessWidget {
+  const featureContainer({super.key});
 
   @override
   Widget build(BuildContext context) {

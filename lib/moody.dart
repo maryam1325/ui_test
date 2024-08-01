@@ -1,8 +1,8 @@
 import 'package:c11_exam_sun_online/tabs/home/badge_icon.dart';
-import 'package:c11_exam_sun_online/tabs/clender_tab.dart';
-import 'package:c11_exam_sun_online/tabs/grid_tab.dart';
-import 'package:c11_exam_sun_online/tabs/home_tab.dart';
-import 'package:c11_exam_sun_online/tabs/user_tab.dart';
+import 'package:c11_exam_sun_online/tabs/moody_tabs/clender_tab.dart';
+import 'package:c11_exam_sun_online/tabs/moody_tabs/grid_tab.dart';
+import 'package:c11_exam_sun_online/tabs/moody_tabs/home_tab.dart';
+import 'package:c11_exam_sun_online/tabs/moody_tabs/user_tab.dart';
 import 'package:flutter/material.dart';
 import 'package:badges/badges.dart' as badges;
 class moody extends StatefulWidget {

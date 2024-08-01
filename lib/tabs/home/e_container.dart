@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class SmallContainer extends StatelessWidget {
+class eContainer extends StatelessWidget {
   String image;
   Color color;
   String text;
-  SmallContainer({required this.text,required this.image,required this.color});
+  eContainer({required this.text,required this.image,required this.color});
 
   @override
   Widget build(BuildContext context) {

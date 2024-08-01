@@ -1,11 +1,11 @@
 import 'package:c11_exam_sun_online/tabs/home/emoji_container.dart';
-import 'package:c11_exam_sun_online/tabs/home/health_container.dart';
+import 'package:c11_exam_sun_online/tabs/home/feature_container.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
-import 'home/small_container.dart';
+import '../home/e_container.dart';
 
 class homeTab extends StatefulWidget {
   const homeTab({super.key});
@@ -86,7 +86,7 @@ class _homeTabState extends State<homeTab> {
             CarouselSlider.builder(
               itemCount: 3,
               itemBuilder: (context, index, realIndex) {
-                return HealthContainer();
+                return featureContainer();
               },
               options: CarouselOptions(
                 enlargeCenterPage: true,
@@ -128,12 +128,12 @@ class _homeTabState extends State<homeTab> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                SmallContainer(
+                eContainer(
                   text: 'Relaxation',
                   image: 'assets/images/relax.png',
                   color: Color(0xffF9F5FF),
                 ),
-                SmallContainer(
+               eContainer(
                   text: 'Meditation',
                   image: 'assets/images/maditation.png',
                   color: Color(0xffFDF2FA),
@@ -144,12 +144,12 @@ class _homeTabState extends State<homeTab> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                SmallContainer(
+                eContainer(
                   text: 'Breath',
                   image: 'assets/images/breath.png',
                   color: Color(0xffFFFAF5),
                 ),
-                SmallContainer(
+                eContainer(
                   text: 'Yoga',
                   image: 'assets/images/yoga.png',
                   color: Color(0xffF0F9FF),
