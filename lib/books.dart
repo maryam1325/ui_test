@@ -18,7 +18,7 @@ class _booksState extends State<books> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         toolbarHeight: 88,
-        backgroundColor: Colors.transparent,
+        backgroundColor: Colors.white,
         leading: Padding(
           padding: const EdgeInsets.only(left: 30.0),
           child: Image.asset('assets/images/Logo2.png'),
@@ -62,6 +62,7 @@ class _booksState extends State<books> {
       ),
       body: tabs[index],
       bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Colors.white,
         selectedItemColor: Color(0xff4838D1),
         onTap: (Index) {
           index = Index;

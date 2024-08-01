@@ -141,13 +141,12 @@ class _homeTab2State extends State<homeTab2> {
                   enlargeCenterPage: true,
                   onPageChanged: (index,reason){
                     setState(() {
-
                     });
                     selected=index;
                   },
                   enableInfiniteScroll: false,
                 )),
-            SizedBox(height: 6,),
+            SizedBox(height:5,),
 
 
 
